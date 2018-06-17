@@ -66,8 +66,8 @@ func (s *Searcher) Sync(rebuild bool) error {
 	client := githubv4.NewClient(httpClient)
 
 	variables := map[string]interface{}{
-		"repositoryOwner": githubv4.String("cockroachdb"),
-		"repositoryName":  githubv4.String("cockroach"),
+		"repositoryOwner": githubv4.String(s.cfg.Org),
+		"repositoryName":  githubv4.String(s.cfg.Repo),
 		"issuesFirst":     githubv4.Int(100), // max allowed by GitHub
 		"issuesOrderBy": githubv4.IssueOrder{
 			Field:     githubv4.IssueOrderFieldUpdatedAt,
