@@ -128,11 +128,7 @@ var searchCmd = &cobra.Command{
 				if loop {
 					continue
 				}
-				if len(s) > 4 {
-					ui.Update(func() { updateSearch(s) })
-				} else {
-					ui.Update(table.RemoveRows)
-				}
+				ui.Update(func() { updateSearch(s) })
 				ch = nil
 				s = ""
 			}
