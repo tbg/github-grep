@@ -1,0 +1,5 @@
+[[override]]
+  # Without overriding this version, simple tui-go programs deadlock on Quit
+  # (even the upstream demos). tui-go is unmaintained, so this will do.
+  name = "github.com/gdamore/tcell"
+  revision = "b3cebc399d6f98536af845ed8a5144ab586f6759"

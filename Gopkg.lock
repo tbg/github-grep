@@ -10,8 +10,7 @@
 [[projects]]
   name = "github.com/gdamore/tcell"
   packages = [".","terminfo"]
-  revision = "061d51a604c546b48e92253cb65190d76cecf4c6"
-  version = "v1.0.0"
+  revision = "b3cebc399d6f98536af845ed8a5144ab586f6759"
 
 [[projects]]
   branch = "master"
@@ -154,6 +153,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "4be276fa6cddf00e95581a9ad19ccc71e39928c686260e523b802a29d6c9f580"
+  inputs-digest = "563d02b8227de59fdf6fadbebec1b58e4bc10c9dc8f625fe2f27681f26d81763"
   solver-name = "gps-cdcl"
   solver-version = 1
