@@ -1,5 +1,7 @@
 # ghg is (experimental) full text offline Github issue search
 
+[Watch a demo here](https://youtu.be/2kNsmIYeOrw).
+
 1. `go get -tags fts5 github.com/tschottdorf/github-grep/pkg/cmd/ghg` 
 2. `export GHI_TOKEN='<your api token here>'`
 3. `cd $(go env GOPATH)/src/github.com/some/repo)`
